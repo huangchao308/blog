@@ -1,6 +1,10 @@
 package v1
 
-import "github.com/gin-gonic/gin"
+import (
+	"github.com/gin-gonic/gin"
+	"github.com/huangchao308/blog/pkg/app"
+	"github.com/huangchao308/blog/pkg/errcode"
+)
 
 type Post struct{}
 
@@ -9,11 +13,11 @@ func NewPost() *Post {
 }
 
 func (p *Post) Get(c *gin.Context) {
-	c.JSON(200, gin.H{"message": "GetPosts"})
+	app.NewResponse(c).ToErrResponse(errcode.NotFound)
 }
 
 func (p *Post) List(c *gin.Context) {
-	c.JSON(200, gin.H{"message": "ListPosts"})
+	app.NewResponse(c).ToErrResponse(errcode.NotFound)
 }
 
 func (p *Post) Create(c *gin.Context) {

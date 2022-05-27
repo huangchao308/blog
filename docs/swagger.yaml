@@ -1,0 +1,64 @@
+basePath: /api/v1
+definitions:
+  model.BlogTag:
+    properties:
+      ID:
+        description: ID
+        type: integer
+      created_by:
+        description: 创建人
+        type: string
+      created_on:
+        description: 创建时间
+        type: string
+      deleted_on:
+        description: 删除时间
+        type: string
+      is_del:
+        description: 是否删除, 0 未删除, 1 已删除
+        type: integer
+      tag_name:
+        description: 标签名称
+        type: string
+      tag_status:
+        description: '标签状态 0: 禁用, 1: 启用'
+        type: integer
+      updated_by:
+        description: 更新人
+        type: string
+      updated_on:
+        description: 更新时间
+        type: string
+    type: object
+host: localhost:8000
+info:
+  contact:
+    email: support@swagger.io
+    name: API Support
+    url: http://www.swagger.io/support
+  description: This is a sample server celler server.
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  termsOfService: http://swagger.io/terms/
+  title: Swagger Example API
+  version: "1.0"
+paths:
+  /tag/{id}:
+    get:
+      description: 获取单个标签
+      parameters:
+      - description: 标签ID
+        in: path
+        name: id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: ok
+          schema:
+            $ref: '#/definitions/model.BlogTag'
+      summary: 获取单个标签
+swagger: "2.0"

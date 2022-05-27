@@ -1,1 +1,33 @@
 [34minfo[0m	init success
+[34minfo[0m	init success
+[34minfo[0m	[2022-05-24 20:22:53] init success
+[34minfo[0m|[2022-05-24 20:24:03] init success
+[34minfo[0m | 2022-05-24 20:24:50 | init success
+[34minfo[0m|2022-05-24 20:25:14|init success
+[34minfo[0m|2022-05-25 10:26:16|init success
+[34minfo[0m|2022-05-25 19:34:55|init success
+[34minfo[0m|2022-05-25 20:01:02|init success
+[34minfo[0m|2022-05-25 20:02:43|init success
+[34minfo[0m|2022-05-25 20:14:43|init success
+[34minfo[0m|2022-05-25 20:15:47|init success
+[34minfo[0m|2022-05-25 20:18:57|init success
+[34minfo[0m|2022-05-25 20:19:06|init success
+[34minfo[0m|2022-05-25 20:22:07|init success
+[34minfo[0m|2022-05-25 20:24:32|init success
+[34minfo[0m|2022-05-25 20:26:17|init success
+[34minfo[0m|2022-05-25 20:28:23|init success
+[34minfo[0m|2022-05-26 20:30:47|init success
+[31merror[0m|2022-05-26 20:32:06|app.BindAndValid errs: State must be one of [0 1],
+[34minfo[0m|2022-05-27 11:46:48|init success
+[34minfo[0m|2022-05-27 11:49:40|init success
+[31merror[0m|2022-05-27 11:49:45|app.BindAndValid errs: ID is a required field,
+[34minfo[0m|2022-05-27 11:50:31|init success
+[31merror[0m|2022-05-27 11:50:34|app.BindAndValid errs: ID is a required field,
+[34minfo[0m|2022-05-27 11:56:59|init success
+[31merror[0m|2022-05-27 11:57:05|svr.GetTag err: record not found
+[31merror[0m|2022-05-27 11:57:23|svr.GetTag err: record not found
+[31merror[0m|2022-05-27 11:58:12|svr.GetTag err: record not found
+[34minfo[0m|2022-05-27 11:59:38|init success
+[31merror[0m|2022-05-27 11:59:41|svr.GetTag err: record not found
+[34minfo[0m|2022-05-27 12:00:15|init success
+[31merror[0m|2022-05-27 12:00:18|svr.GetTag err: record not found
